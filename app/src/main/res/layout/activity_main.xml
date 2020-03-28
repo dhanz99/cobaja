@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="#CFFFF5">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -32,7 +33,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="78dp"
                     android:layout_marginTop="25dp"
-                    android:layout_marginBottom="100dp">
+                    android:layout_marginBottom="10dp">
 
                     <EditText
                         android:layout_width="197dp"
@@ -49,8 +50,8 @@
 
                 <TableRow
                     android:layout_width="match_parent"
-                    android:layout_height="78dp"
-                    android:layout_marginTop="100dp">
+                    android:layout_height="20dp"
+                    android:layout_marginTop="25dp">
 
                     <EditText
                         android:id="@+id/editText1"
@@ -70,29 +71,31 @@
                     android:layout_height="93dp"
                     android:hint="@string/add"/>
 
-                <RadioGroup>
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_marginTop="10dp"
-                        android:text="@string/gender"
-                        android:textSize="17sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/gender"
+                    android:textSize="17sp"/>
 
                     <TableRow
 
                         android:layout_marginTop="15dp">
 
-                        <RadioButton
-                            android:layout_marginHorizontal="15dp"
-                            android:text="@string/lk"/>
-                        <RadioButton
-                            android:layout_marginHorizontal="15dp"
-                            android:text="@string/pr"/>
+                            <RadioButton
+                                android:layout_marginHorizontal="15dp"
+                                android:text="@string/lk"/>
+                            <RadioButton
+                                android:layout_marginHorizontal="15dp"
+                                android:text="@string/pr"/>
 
                     </TableRow>
 
-                </RadioGroup>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/agama"/>
 
                 <TableRow
                     android:layout_width="wrap_content"
@@ -102,11 +105,6 @@
                     <RadioGroup
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content">
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="@string/agama"/>
 
                         <RadioButton
                         android:layout_width="wrap_content"
@@ -160,13 +158,14 @@
                 <EditText
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="30dp"
+                    android:layout_marginTop="10dp"
                     android:hint="@string/Email"/>
 
                 <EditText
                     android:id="@+id/pw1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
                     android:inputType="textPassword"
                     android:hint="@string/pw1">
                     <requestFocus/>
@@ -176,6 +175,7 @@
                     android:id="@+id/pw2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
                     android:inputType="textPassword"
                     android:hint="@string/pw2">
                     <requestFocus/>
