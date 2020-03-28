@@ -1,3 +1,23 @@
 <resources>
-    <string name="app_name">cobaja</string>
+    <string name="app_name">Pendaftaran</string>
+    <string name="jdl1">PENDAFTARAN</string>
+    <string name="frnm">Nama Depan</string>
+    <string name="lsnm">Nama Belakang</string>
+    <string name="placedt">Tempat Lahir</string>
+    <string name="date">Tanggal Lahir</string>
+    <string name="add">Alamat</string>
+    <string name="gender">Jenis Kelamin</string>
+    <string name="lk">Laki Laki</string>
+    <string name="pr">Perempuan</string>
+    <string name="agama">Agama</string>
+    <string name="is">Islam</string>
+    <string name="bd">Budha</string>
+    <string name="ka">Katholik</string>
+    <string name="hn">Hindu</string>
+    <string name="kh">Konghucu</string>
+    <string name="kr">Kristen</string>
+    <string name="Alrn">Aliran Kepercayaan</string>
+    <string name="back">Kembali</string>
+    <string name="next">Daftar</string>
+
 </resources>
