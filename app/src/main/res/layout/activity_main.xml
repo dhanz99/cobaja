@@ -36,12 +36,14 @@
                     android:layout_marginBottom="10dp">
 
                     <EditText
+                        android:id="@+id/frnm"
                         android:layout_width="197dp"
                         android:layout_height="match_parent"
                         android:hint="@string/frnm">
                     </EditText>
 
                     <EditText
+                        android:id="@+id/lsnm"
                         android:layout_width="194dp"
                         android:layout_height="match_parent"
                         android:hint="@string/lsnm">
@@ -150,12 +152,14 @@
                 </TableRow>
 
                 <EditText
+                    android:id="@+id/telp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="30dp"
                     android:hint="@string/telp"/>
 
                 <EditText
+                    android:id="@+id/email"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
